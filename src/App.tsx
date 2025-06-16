@@ -57,7 +57,9 @@ function App() {
         {/* Footer */}
         <div className="text-center text-gray-600 py-4">
           <p className="text-sm">
-            Build your Vibe Coding empire and convince everyone in the world that vibe coding is the future! 🚀
+            Build your Vibe Coding empire and convince everyone in the world that vibe coding is the future! 🚀 (
+              <a href="https://github.com/bob-the-vibecoder/vibe-coding-empire">about</a>
+            )
           </p>
         </div>
       </div>
