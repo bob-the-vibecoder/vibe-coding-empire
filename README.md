@@ -14,6 +14,12 @@ License: **MIT**
 
 ---
 
+## Debug
+
+The game tends to save the game state in cookies / local storage, therefore, for restarting the state just clear your cookies or start an the browser in incognito.
+
+---
+
 ## Requirements
 
 You need to use:
