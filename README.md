@@ -13,3 +13,43 @@ License: **MIT**
 **Have Fun Playing the Game!**
 
 ---
+
+## Requirements
+
+You need to use:
+
+- At least anode **`v20.15.0`** (npm **`v10.7.0`**)
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```sh
+git clone ...
+```
+
+2. Navigate into the project directory:
+
+```sh
+cd <project-directory>
+```
+
+3. Install dependencies:
+
+```sh
+npm install
+```
+
+4. Start the development server:
+
+```sh
+npm run dev
+```
+
+5. Open your browser and go to [http://localhost:5173](http://localhost:5173) to see the game in action.
+
+Note: To build the game you have to use **`npm run build`** and serve the result from the `./dist` directory with a simple server like **`python -m http.server`**.
+
+---
