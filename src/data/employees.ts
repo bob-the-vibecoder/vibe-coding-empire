@@ -40,18 +40,28 @@ export const employeeTemplates: EmployeeTemplate[] = [
     description: 'Visionary leader, drives company strategy',
     color: 'from-red-400 to-red-600',
     icon: '👑'
+  },
+  {
+    type: EmployeeType.ADVANCED,
+    baseCost: 900000,
+    baseIncome: 5000,
+    description: 'Leads advanced AI development, innovates cutting-edge solutions',
+    color: 'from-indigo-400 to-indigo-600',
+    icon: '🦸'
   }
 ];
 
 export const generateEmployeeName = (): string => {
   const names = [
     'Alex', 'Jordan', 'Taylor', 'Morgan', 'Casey', 'Riley', 'Avery', 'Quinn',
-    'Sage', 'River', 'Rowan', 'Phoenix', 'Skyler', 'Cameron', 'Drew', 'Blake'
+    'Sage', 'River', 'Rowan', 'Phoenix', 'Skyler', 'Cameron', 'Drew', 'Blake',
+    'Sam', 'Elon', 'Ilya', 'Greg', 'Andrej', 'Pamela', 'Mira',
   ];
 
   const surnames = [
     'Chen', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis',
-    'Rodriguez', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Wilson', 'Anderson'
+    'Rodriguez', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Wilson', 'Anderson',
+    'Altman', 'Musk', 'Sutskever', 'Brockman', 'Karpathy', 'Vagata', 'Murati',
   ];
 
   const name = names[Math.floor(Math.random() * names.length)];

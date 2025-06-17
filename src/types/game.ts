@@ -22,7 +22,8 @@ export enum EmployeeType {
   JUNIOR = 'Junior Dev',
   SENIOR = 'Senior Dev',
   ARCHITECT = 'Tech Lead',
-  CTO = 'CTO'
+  CTO = 'CTO',
+  ADVANCED = 'Advanced AI Lead'
 }
 
 export interface EmployeeTemplate {
